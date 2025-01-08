@@ -1,3 +1,14 @@
+"""
+********************************************************************************
+* Project Name:  Name and Age Guessing App
+* Description:   This web application guesses your gender and age based on your name. By entering your name in the URL, the app uses external APIs to predict your gender and age, then displays the results on a new page.
+* Author:        ziqkimi308
+* Created:       2025-01-08
+* Updated:       2025-01-08
+* Version:       1.0
+********************************************************************************
+"""
+
 from flask import Flask, render_template
 import datetime as dt
 import requests
